@@ -1,0 +1,22 @@
+﻿{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "VirtualizationPlus",
+	"Description": "",
+	"Category": "Other",
+	"CreatedBy": "VesCodes",
+	"CreatedByURL": "https://github.com/VesCodes",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportedPrograms": [
+		"UnrealVirtualizationTool"
+	],
+	"Modules": [
+		{
+			"Name": "VirtualizationPlus",
+			"Type": "UncookedOnly",
+			"LoadingPhase": "EarliestPossible"
+		}
+	]
+}
