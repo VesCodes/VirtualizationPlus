@@ -1,4 +1,4 @@
-﻿# VirtualizationPlus
+# VirtualizationPlus
 
 Additional backends for Unreal Engine's [Virtual Assets](https://docs.unrealengine.com/en-US/virtual-assets-in-unreal-engine/) system.
 
@@ -16,7 +16,7 @@ BackendGraph=VirtualizationBackendGraph_Example
 [VirtualizationBackendGraph_Example]
 PersistentStorageHierarchy=(Entry=ExampleS3)
 CacheStorageHierarchy=(Entry=ExampleDDC)
-ExampleS3=(Type=VirtualizationPlusS3, BucketUrl="https://s3.amazonaws.com/examplebucket", Region="us-east-1", AccessKey=" AKIAIOSFODNN7EXAMPLE", SecretKey="wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY")
+ExampleS3=(Type=VirtualizationPlusS3, BucketUrl="https://s3.amazonaws.com/examplebucket", Region="us-east-1", AccessKey="AKIAIOSFODNN7EXAMPLE", SecretKey="wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY")
 ExampleDDC=(Type=DDCBackend)
 ```
 
